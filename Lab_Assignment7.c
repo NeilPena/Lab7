@@ -91,4 +91,5 @@ int main(){
     selectionSort(arr2, n); 
     printArray(arr2, n);
 
+    return 0; 
 }
