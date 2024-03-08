@@ -55,7 +55,7 @@ void selectionSort(int arr[], int n){
     }  
     //Print ot the array of numbers witht the amount of swaps
     for(i = 0; i < n; i++){
-            printf("%d: %d\n", arr[i], swap_count[arr[i]]);
+            printf("%d: %d\n", arr[i], swap_count[arr[i]] - 1);
         }
     printf("Number of swaps: %d\n", swaps);
 
